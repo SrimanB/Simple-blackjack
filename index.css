@@ -1,0 +1,45 @@
+body{
+    background-color: linen;
+    font-family: poppins;
+    background-color: green;
+    color: gold;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: fit-content;
+    margin-top: 10vh;
+}
+.text p{
+    color: white;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+}
+.game p{
+    position: relative;
+    left: -20px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    background-color: gold;
+    color: green;
+    font-weight: 1000;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#player-el{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
